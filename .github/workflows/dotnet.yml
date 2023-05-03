@@ -25,7 +25,7 @@ jobs:
         run: dotnet build ./ReStore.sln --configuration Release --no-restore
 
       - name: Run Teste
-        run: dotnet test ./ReStore.sln --no-build
+        run: dotnet test ./ReStore.sln
       
       - name: Run Publish
         run: dotnet publish ./ReStore.sln --configuration Release --no-build
