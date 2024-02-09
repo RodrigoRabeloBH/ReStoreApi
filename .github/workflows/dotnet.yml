@@ -23,6 +23,7 @@ jobs:
         
       - name: Run Build
         run: dotnet build ./ReStore.sln --configuration Release --no-restore
+        
 
       - name: Run Teste
         run: dotnet test ./ReStore.sln
